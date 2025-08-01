@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .form-border {
+            background-color: #282b2bf2;
+            border-radius: 0px;
+            color: white;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 10px;
+            border: none;
+            margin-bottom: 15px;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        h1,
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        input,
+        select,
+        textarea {
+            font-size: 0.95rem;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <div class="form-border">
+            <h1>Get In Touch</h1>
+
+            <label for="first-name">Full Name</label>
+            <input type="text" required name="first-name" placeholder="shayan" id="first-name" />
+            <label for="email">E-mail</label>
+            <input type="email" required name="email" placeholder="shayan@gmail.com" id="email" />
+
+            <label for="phone">Phone</label>
+            <div style="display: flex; gap: 10px">
+                <input type="tel" required placeholder="+92 12345678" />
+            </div>
+
+            <h2>Your Message</h2>
+            <textarea name="message" id="message" placeholder="Write your Message....." rows="4"></textarea>
+
+            <button type="submit" style="
+            background-color: rgb(130, 238, 254);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            padding: 10px 20px;
+            margin: 8px 155px;
+            border: none;
+            border-radius: 4px;
+			font-weight: bolder;
+			font-size: 18px; "> Submit
+
+    </body>
+
+</html>
